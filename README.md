@@ -1,5 +1,6 @@
 # Licence Plate Detection Yolov8
 Licence plate recognition is a hot topic in computer vision involving object detection/recognition and optical character recognition (OCR) models. In this practice, we trained a small dataset of vehicle licence plate using Yolov8, then extracting the content with PaddleOCR. Our dataset was dowmloaded from kaggle. It is a small dataset of 228 images. The data ratio is 24 images for testing, 22 images for validation and 182 images for training.
+The training is done using yolov8n.pt pretrained model and run for 50 epochs.
 Only the best weight is used for inference.
 #### dataset visualization
 ![img_dataset](https://user-images.githubusercontent.com/48753146/229334150-051ca6a5-b40f-4fd1-bfbb-c2cfbf5d7186.png)
