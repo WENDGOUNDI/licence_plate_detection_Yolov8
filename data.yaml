@@ -1,0 +1,5 @@
+train: D:/yolov8_anpr_al_pr/dataset/train
+val: D:/yolov8_anpr_al_pr/dataset/val
+
+ns: 1
+names: ["license_plate"]
